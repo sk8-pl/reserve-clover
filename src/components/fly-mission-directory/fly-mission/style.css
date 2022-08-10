@@ -1,0 +1,8 @@
+#cesiumContainer {
+    height: 100%;
+}
+
+.cesium-viewer-bottom, .cesium-viewer-animationContainer, .cesium-viewer-timelineContainer {
+    display: none;
+}
+

@@ -1,0 +1,9 @@
+.ant-upload.ant-upload-drag {
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.ant-upload-list-item-info {
+    padding: 0 24px;
+}

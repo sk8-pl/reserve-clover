@@ -1,0 +1,49 @@
+.container-home {
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.container-home h2 {
+    margin: 2rem;
+    font-size: 32px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #001529;
+}
+
+.home-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.homelist {
+    width: 40%;
+}
+
+.homelist li {
+    list-style: none;
+    margin: 12px 0;
+}
+
+.homelist li::before {
+    content: '';
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    background-image: url('../../assets/svg/check-mark.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home-iamge {
+    content: '';
+    height: 400px;
+    width: 60%;
+    background-image: url(../../assets/jpg/home-image.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

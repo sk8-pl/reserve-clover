@@ -1,0 +1,9 @@
+.instrument-collapse {
+    width: 34px;
+    overflow: hidden;
+    transition: all .4s;
+}
+
+.instrument-collapse:hover {
+    width: 100%;
+}
